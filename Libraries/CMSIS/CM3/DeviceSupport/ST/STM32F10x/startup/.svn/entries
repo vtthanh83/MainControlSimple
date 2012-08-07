@@ -1,0 +1,40 @@
+10
+
+dir
+17
+svn://46.137.251.126/Firmware/PlainReader/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/startup
+svn://46.137.251.126/Firmware
+
+
+
+2011-10-15T13:44:39.502007Z
+6
+hatran
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+41a2964b-42a3-4a3f-8a42-6b8f6432e5dd
+
+arm
+dir
+
+gcc_ride7
+dir
+
+TrueSTUDIO
+dir
+
+iar
+dir
+

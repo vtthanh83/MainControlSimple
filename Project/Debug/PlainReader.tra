@@ -1,0 +1,49 @@
+*** Creating Trace Output File '.\Debug\PlainReader.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\debug\misc.o"'
+### List of Objects: adding '".\debug\stm32f10x_exti.o"'
+### List of Objects: adding '".\debug\stm32f10x_gpio.o"'
+### List of Objects: adding '".\debug\stm32f10x_rcc.o"'
+### List of Objects: adding '".\debug\stm32f10x_flash.o"'
+### List of Objects: adding '".\debug\stm32f10x_adc.o"'
+### List of Objects: adding '".\debug\stm32f10x_dma.o"'
+### List of Objects: adding '".\debug\stm32f10x_usart.o"'
+### List of Objects: adding '".\debug\stm32f10x_tim.o"'
+### List of Objects: adding '".\debug\stm32f10x_spi.o"'
+### List of Objects: adding '".\debug\stm32f10x_i2c.o"'
+### List of Objects: adding '".\debug\core_cm3.o"'
+### List of Objects: adding '".\debug\system_stm32f10x.o"'
+### List of Objects: adding '".\debug\startup_stm32f10x_md_vl.o"'
+### List of Objects: adding '".\debug\khoitest.o"'
+### List of Objects: adding '".\debug\main.o"'
+### List of Objects: adding '".\debug\stm32f10x_it.o"'
+### List of Objects: adding '".\debug\thanhtest.o"'
+### List of Objects: adding '".\debug\demo.o"'
+### List of Objects: adding '".\debug\des.o"'
+### List of Objects: adding '".\debug\pn532.o"'
+### List of Objects: adding '".\debug\pn532_drvr.o"'
+### List of Objects: adding '".\debug\vtimer.o"'
+### List of Objects: adding '".\debug\crc16.o"'
+### List of Objects: adding '".\debug\aes.o"'
+### List of Objects: adding '".\debug\i2c.o"'
+### List of Objects: adding '".\debug\keyman.o"'
+### List of Objects: adding '".\debug\ti_aes.o"'
+### List of Objects: adding '".\debug\touchpad.o"'
+### List of Objects: adding '".\debug\uart.o"'
+### List of Objects: adding '".\debug\stm32sunid.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 ".\debug\misc.o" ".\debug\stm32f10x_exti.o" ".\debug\stm32f10x_gpio.o" ".\debug\stm32f10x_rcc.o" ".\debug\stm32f10x_flash.o" ".\debug\stm32f10x_adc.o" ".\debug\stm32f10x_dma.o" ".\debug\stm32f10x_usart.o" ".\debug\stm32f10x_tim.o" ".\debug\stm32f10x_spi.o" ".\debug\stm32f10x_i2c.o" ".\debug\core_cm3.o" ".\debug\system_stm32f10x.o" ".\debug\startup_stm32f10x_md_vl.o" ".\debug\khoitest.o" ".\debug\main.o" ".\debug\stm32f10x_it.o" ".\debug\thanhtest.o" ".\debug\demo.o" ".\debug\des.o" ".\debug\pn532.o" ".\debug\pn532_drvr.o" ".\debug\vtimer.o" ".\debug\crc16.o" ".\debug\aes.o" ".\debug\i2c.o" ".\debug\keyman.o" ".\debug\ti_aes.o" ".\debug\touchpad.o" ".\debug\uart.o" ".\debug\stm32sunid.o" --library_type=microlib --strict --scatter ".\Debug\PlainReader.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Debug\PlainReader.map" -o ".\Debug\PlainReader.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\Debug\PlainReader.axf'
+### ADS-LD Command File: '.\Debug\PlainReader.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\Debug\PlainReader.lnp', Handle=0x0000057C
+### Writing '.lnp' file
+### ADS-LD Command file '.\Debug\PlainReader.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
