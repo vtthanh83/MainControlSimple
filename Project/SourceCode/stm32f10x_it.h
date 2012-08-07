@@ -43,6 +43,7 @@ void RCC_IRQHandler(void);
 
 void TIM2_IRQHandler(void);
 void USART2_IRQHandler(void);
+void USART1_IRQHandler(void);
 
 
 #endif /* __STM32F10x_IT_H */

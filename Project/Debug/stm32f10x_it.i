@@ -322,7 +322,7 @@ typedef enum IRQn
 
 
 
-#line 1 "D:\\Installed Programs\\Keil\\ARM\\RV31\\Inc\\stdint.h"
+#line 1 "E:\\ProgramFiles\\Keil\\ARM\\RV31\\Inc\\stdint.h"
  
  
 
@@ -340,7 +340,7 @@ typedef enum IRQn
 
 
 
-#line 25 "D:\\Installed Programs\\Keil\\ARM\\RV31\\Inc\\stdint.h"
+#line 25 "E:\\ProgramFiles\\Keil\\ARM\\RV31\\Inc\\stdint.h"
 
 
 
@@ -505,7 +505,7 @@ typedef unsigned       __int64 uintmax_t;
 
 
 
-#line 196 "D:\\Installed Programs\\Keil\\ARM\\RV31\\Inc\\stdint.h"
+#line 196 "E:\\ProgramFiles\\Keil\\ARM\\RV31\\Inc\\stdint.h"
 
      
 
@@ -538,7 +538,7 @@ typedef unsigned       __int64 uintmax_t;
 
 
 
-#line 260 "D:\\Installed Programs\\Keil\\ARM\\RV31\\Inc\\stdint.h"
+#line 260 "E:\\ProgramFiles\\Keil\\ARM\\RV31\\Inc\\stdint.h"
 
 
 
@@ -7912,28 +7912,20 @@ void RCC_IRQHandler(void);
 
 void TIM2_IRQHandler(void);
 void USART2_IRQHandler(void);
+void USART1_IRQHandler(void);
 
 
 
 
  
 #line 25 "SourceCode\\stm32f10x_it.c"
-#line 1 "..\\Libraries\\sunid_lib\\thanh\\inc\\VTimer.h"
+#line 1 "..\\Libraries\\sunid_lib\\inc\\VTimer.h"
 
 
 
 
-#line 1 "..\\Utilities\\stm32sunid.h"
+#line 1 "..\\Utilities\\stm32sunidMainSmall.h"
 
-
-
-
-
-
-
-
- 
- 
 
 
 
@@ -7942,7 +7934,16 @@ void USART2_IRQHandler(void);
 
 
  
-#line 20 "..\\Utilities\\stm32sunid.h"
+ 
+
+
+
+
+
+
+
+ 
+#line 20 "..\\Utilities\\stm32sunidMainSmall.h"
 #line 1 "..\\Libraries\\STM32F10x_StdPeriph_Driver\\inc\\stm32f10x_adc.h"
 
 
@@ -8306,7 +8307,7 @@ void ADC_ClearITPendingBit(ADC_TypeDef* ADCx, uint16_t ADC_IT);
  
 
  
-#line 21 "..\\Utilities\\stm32sunid.h"
+#line 21 "..\\Utilities\\stm32sunidMainSmall.h"
 #line 1 "..\\Libraries\\STM32F10x_StdPeriph_Driver\\inc\\stm32f10x_dma.h"
 
 
@@ -8579,8 +8580,8 @@ void DMA_ClearITPendingBit(uint32_t DMA_IT);
  
 
  
-#line 22 "..\\Utilities\\stm32sunid.h"
-#line 23 "..\\Utilities\\stm32sunid.h"
+#line 22 "..\\Utilities\\stm32sunidMainSmall.h"
+#line 23 "..\\Utilities\\stm32sunidMainSmall.h"
 #line 1 "..\\Libraries\\STM32F10x_StdPeriph_Driver\\inc\\stm32f10x_tim.h"
 
 
@@ -9384,7 +9385,7 @@ void TIM_ClearITPendingBit(TIM_TypeDef* TIMx, uint16_t TIM_IT);
  
 
  
-#line 24 "..\\Utilities\\stm32sunid.h"
+#line 24 "..\\Utilities\\stm32sunidMainSmall.h"
 #line 1 "..\\Libraries\\STM32F10x_StdPeriph_Driver\\inc\\stm32f10x_spi.h"
 
 
@@ -9789,7 +9790,7 @@ void SPI_I2S_ClearITPendingBit(SPI_TypeDef* SPIx, uint8_t SPI_I2S_IT);
  
 
  
-#line 25 "..\\Utilities\\stm32sunid.h"
+#line 25 "..\\Utilities\\stm32sunidMainSmall.h"
 #line 1 "..\\Libraries\\STM32F10x_StdPeriph_Driver\\inc\\stm32f10x_i2c.h"
 
 
@@ -10372,7 +10373,7 @@ void I2C_ClearITPendingBit(I2C_TypeDef* I2Cx, uint32_t I2C_IT);
   
 
  
-#line 26 "..\\Utilities\\stm32sunid.h"
+#line 26 "..\\Utilities\\stm32sunidMainSmall.h"
 
 
 
@@ -10381,12 +10382,7 @@ typedef enum
 {
   LED1 = 0,
   LED2 = 1,
-  LED3 = 2,
-  LED4 = 3,
-  LEDRED = 4,
-  LEDBGND1 = 5,
-  LEDBGND2 = 6,
-  ALL_LED = 7
+  ALL_LED = 2
 } Led_TypeDef;
 
 typedef enum 
@@ -10460,24 +10456,6 @@ typedef enum
 
 
 
-
-
-
-
-
-
-
-
- 
-
-
-
-										 
-
-
-
-
-
 												  
 
 
@@ -10530,7 +10508,7 @@ typedef enum
 
 
  
-#line 190 "..\\Utilities\\stm32sunid.h"
+#line 167 "..\\Utilities\\stm32sunidMainSmall.h"
 
 
 
@@ -10550,11 +10528,11 @@ typedef enum
 
 
    
-#line 223 "..\\Utilities\\stm32sunid.h"
+#line 200 "..\\Utilities\\stm32sunidMainSmall.h"
 
 
  
-#line 233 "..\\Utilities\\stm32sunid.h"
+#line 210 "..\\Utilities\\stm32sunidMainSmall.h"
 
  
 
@@ -10608,7 +10586,7 @@ uint32_t arraycmp(const uint8_t * src, const uint8_t * des, uint32_t startIndex,
  
   
  
-#line 6 "..\\Libraries\\sunid_lib\\thanh\\inc\\VTimer.h"
+#line 6 "..\\Libraries\\sunid_lib\\inc\\VTimer.h"
  
 
 
@@ -10639,13 +10617,15 @@ uint32_t arraycmp(const uint8_t * src, const uint8_t * des, uint32_t startIndex,
 
 
 #line 26 "SourceCode\\stm32f10x_it.c"
-#line 1 "..\\Libraries\\sunid_lib\\khoi\\inc\\uart.h"
+#line 1 "..\\Libraries\\sunid_lib\\inc\\uart.h"
 
 
 
-#line 5 "..\\Libraries\\sunid_lib\\khoi\\inc\\uart.h"
+#line 5 "..\\Libraries\\sunid_lib\\inc\\uart.h"
 
-#line 14 "..\\Libraries\\sunid_lib\\khoi\\inc\\uart.h"
+#line 14 "..\\Libraries\\sunid_lib\\inc\\uart.h"
+
+#line 23 "..\\Libraries\\sunid_lib\\inc\\uart.h"
 
 
 
@@ -10658,7 +10638,15 @@ bool IsComingData(int* retlen);
 void EmptyMessBuff(void);
 void UART_ISR(void);
 
-
+ErrorCode USARTCOMInit(void);
+unsigned char USART_putchar(unsigned char c);
+unsigned char USART_getchar(void);
+int USART_printf(const char *format, ...);
+unsigned char USART_getche(void);
+unsigned int USART_intScanf(int num, int min,int max);
+unsigned char USART_IsRxEmpty(void);
+ErrorCode USARTGetComData(uint8_t* buf, int len, int timeout);
+void USART1_ISR(void);
 #line 27 "SourceCode\\stm32f10x_it.c"
 
  
@@ -10859,6 +10847,10 @@ void TIM2_IRQHandler(void)
 void USART2_IRQHandler(void)
 {
 	UART_ISR();
+}
+void USART1_IRQHandler(void)
+{
+	USART1_ISR();
 }
 
 

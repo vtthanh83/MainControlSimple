@@ -467,11 +467,11 @@ ARM Macro Assembler    Page 8
               00000000 
               00000000 
 Command Line: --debug --xref --cpu=Cortex-M3 --apcs=interwork --depend=.\Debug\
-startup_stm32f10x_md_vl.d -o.\Debug\startup_stm32f10x_md_vl.o -I"D:\Installed P
-rograms\Keil\ARM\RV31\Inc" -I"D:\Installed Programs\Keil\ARM\CMSIS\Include" -I"
-D:\Installed Programs\Keil\ARM\Inc\ST\STM32F10x" --predefine="__MICROLIB SETA 1
-" --list=.\Debug\startup_stm32f10x_md_vl.lst ..\Libraries\CMSIS\CM3\DeviceSuppo
-rt\ST\STM32F10x\startup\arm\startup_stm32f10x_md_vl.s
+startup_stm32f10x_md_vl.d -o.\Debug\startup_stm32f10x_md_vl.o -IE:\ProgramFiles
+\Keil\ARM\RV31\Inc -IE:\ProgramFiles\Keil\ARM\CMSIS\Include -IE:\ProgramFiles\K
+eil\ARM\Inc\ST\STM32F10x --predefine="__MICROLIB SETA 1" --list=.\Debug\startup
+_stm32f10x_md_vl.lst ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\startup\
+arm\startup_stm32f10x_md_vl.s
 
 
 

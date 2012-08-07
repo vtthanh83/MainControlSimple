@@ -1,9 +1,9 @@
-#line 1 "..\\Libraries\\sunid_lib\\khoi\\src\\keyman.c"
-#line 1 "..\\Libraries\\sunid_lib\\khoi\\inc\\keyman.h"
+#line 1 "..\\Libraries\\sunid_lib\\src\\keyman.c"
+#line 1 "..\\Libraries\\sunid_lib\\inc\\keyman.h"
 
 
 
-#line 1 "..\\Utilities\\stm32sunid.h"
+#line 1 "..\\Utilities\\stm32sunidMainSmall.h"
 
 
 
@@ -296,7 +296,7 @@ typedef enum IRQn
 
 
 
-#line 1 "D:\\Installed Programs\\Keil\\ARM\\RV31\\Inc\\stdint.h"
+#line 1 "E:\\ProgramFiles\\Keil\\ARM\\RV31\\Inc\\stdint.h"
  
  
 
@@ -314,7 +314,7 @@ typedef enum IRQn
 
 
 
-#line 25 "D:\\Installed Programs\\Keil\\ARM\\RV31\\Inc\\stdint.h"
+#line 25 "E:\\ProgramFiles\\Keil\\ARM\\RV31\\Inc\\stdint.h"
 
 
 
@@ -479,7 +479,7 @@ typedef unsigned       __int64 uintmax_t;
 
 
 
-#line 196 "D:\\Installed Programs\\Keil\\ARM\\RV31\\Inc\\stdint.h"
+#line 196 "E:\\ProgramFiles\\Keil\\ARM\\RV31\\Inc\\stdint.h"
 
      
 
@@ -512,7 +512,7 @@ typedef unsigned       __int64 uintmax_t;
 
 
 
-#line 260 "D:\\Installed Programs\\Keil\\ARM\\RV31\\Inc\\stdint.h"
+#line 260 "E:\\ProgramFiles\\Keil\\ARM\\RV31\\Inc\\stdint.h"
 
 
 
@@ -7866,7 +7866,7 @@ void SysTick_CLKSourceConfig(uint32_t SysTick_CLKSource);
  
 
  
-#line 20 "..\\Utilities\\stm32sunid.h"
+#line 20 "..\\Utilities\\stm32sunidMainSmall.h"
 #line 1 "..\\Libraries\\STM32F10x_StdPeriph_Driver\\inc\\stm32f10x_adc.h"
 
 
@@ -8230,7 +8230,7 @@ void ADC_ClearITPendingBit(ADC_TypeDef* ADCx, uint16_t ADC_IT);
  
 
  
-#line 21 "..\\Utilities\\stm32sunid.h"
+#line 21 "..\\Utilities\\stm32sunidMainSmall.h"
 #line 1 "..\\Libraries\\STM32F10x_StdPeriph_Driver\\inc\\stm32f10x_dma.h"
 
 
@@ -8503,8 +8503,8 @@ void DMA_ClearITPendingBit(uint32_t DMA_IT);
  
 
  
-#line 22 "..\\Utilities\\stm32sunid.h"
-#line 23 "..\\Utilities\\stm32sunid.h"
+#line 22 "..\\Utilities\\stm32sunidMainSmall.h"
+#line 23 "..\\Utilities\\stm32sunidMainSmall.h"
 #line 1 "..\\Libraries\\STM32F10x_StdPeriph_Driver\\inc\\stm32f10x_tim.h"
 
 
@@ -9308,7 +9308,7 @@ void TIM_ClearITPendingBit(TIM_TypeDef* TIMx, uint16_t TIM_IT);
  
 
  
-#line 24 "..\\Utilities\\stm32sunid.h"
+#line 24 "..\\Utilities\\stm32sunidMainSmall.h"
 #line 1 "..\\Libraries\\STM32F10x_StdPeriph_Driver\\inc\\stm32f10x_spi.h"
 
 
@@ -9713,7 +9713,7 @@ void SPI_I2S_ClearITPendingBit(SPI_TypeDef* SPIx, uint8_t SPI_I2S_IT);
  
 
  
-#line 25 "..\\Utilities\\stm32sunid.h"
+#line 25 "..\\Utilities\\stm32sunidMainSmall.h"
 #line 1 "..\\Libraries\\STM32F10x_StdPeriph_Driver\\inc\\stm32f10x_i2c.h"
 
 
@@ -10296,7 +10296,7 @@ void I2C_ClearITPendingBit(I2C_TypeDef* I2Cx, uint32_t I2C_IT);
   
 
  
-#line 26 "..\\Utilities\\stm32sunid.h"
+#line 26 "..\\Utilities\\stm32sunidMainSmall.h"
 
 
 
@@ -10454,7 +10454,7 @@ typedef enum
 
 
  
-#line 190 "..\\Utilities\\stm32sunid.h"
+#line 190 "..\\Utilities\\stm32sunidMainSmall.h"
 
 
 
@@ -10474,11 +10474,11 @@ typedef enum
 
 
    
-#line 223 "..\\Utilities\\stm32sunid.h"
+#line 223 "..\\Utilities\\stm32sunidMainSmall.h"
 
 
  
-#line 233 "..\\Utilities\\stm32sunid.h"
+#line 233 "..\\Utilities\\stm32sunidMainSmall.h"
 
  
 
@@ -10532,7 +10532,7 @@ uint32_t arraycmp(const uint8_t * src, const uint8_t * des, uint32_t startIndex,
  
   
  
-#line 5 "..\\Libraries\\sunid_lib\\khoi\\inc\\keyman.h"
+#line 5 "..\\Libraries\\sunid_lib\\inc\\keyman.h"
 
 ErrorCode GetProtocolKey(uint8_t* keybuf, int* keylen);
 ErrorCode SetNewProtocolKey(uint8_t* keybuf, int keylen);
@@ -10545,8 +10545,8 @@ ErrorCode GetOldRFIDKey(uint8_t* keybuf, int* keylen);
 
 
 
-#line 2 "..\\Libraries\\sunid_lib\\khoi\\src\\keyman.c"
-#line 1 "D:\\Installed Programs\\Keil\\ARM\\RV31\\Inc\\string.h"
+#line 2 "..\\Libraries\\sunid_lib\\src\\keyman.c"
+#line 1 "E:\\ProgramFiles\\Keil\\ARM\\RV31\\Inc\\string.h"
  
  
  
@@ -10576,7 +10576,7 @@ ErrorCode GetOldRFIDKey(uint8_t* keybuf, int* keylen);
 
 
 
-#line 37 "D:\\Installed Programs\\Keil\\ARM\\RV31\\Inc\\string.h"
+#line 37 "E:\\ProgramFiles\\Keil\\ARM\\RV31\\Inc\\string.h"
 
 
   
@@ -10718,7 +10718,7 @@ extern __declspec(__nothrow) size_t strxfrm(char * __restrict  , const char * __
  
 
 
-#line 184 "D:\\Installed Programs\\Keil\\ARM\\RV31\\Inc\\string.h"
+#line 184 "E:\\ProgramFiles\\Keil\\ARM\\RV31\\Inc\\string.h"
 extern __declspec(__nothrow) void *memchr(const void *  , int  , size_t  ) __attribute__((__nonnull__(1)));
 
    
@@ -10729,7 +10729,7 @@ extern __declspec(__nothrow) void *memchr(const void *  , int  , size_t  ) __att
 
  
 
-#line 200 "D:\\Installed Programs\\Keil\\ARM\\RV31\\Inc\\string.h"
+#line 200 "E:\\ProgramFiles\\Keil\\ARM\\RV31\\Inc\\string.h"
 extern __declspec(__nothrow) char *strchr(const char *  , int  ) __attribute__((__nonnull__(1)));
 
    
@@ -10747,7 +10747,7 @@ extern __declspec(__nothrow) size_t strcspn(const char *  , const char *  ) __at
 
  
 
-#line 223 "D:\\Installed Programs\\Keil\\ARM\\RV31\\Inc\\string.h"
+#line 223 "E:\\ProgramFiles\\Keil\\ARM\\RV31\\Inc\\string.h"
 extern __declspec(__nothrow) char *strpbrk(const char *  , const char *  ) __attribute__((__nonnull__(1,2)));
 
    
@@ -10757,7 +10757,7 @@ extern __declspec(__nothrow) char *strpbrk(const char *  , const char *  ) __att
 
  
 
-#line 238 "D:\\Installed Programs\\Keil\\ARM\\RV31\\Inc\\string.h"
+#line 238 "E:\\ProgramFiles\\Keil\\ARM\\RV31\\Inc\\string.h"
 extern __declspec(__nothrow) char *strrchr(const char *  , int  ) __attribute__((__nonnull__(1)));
 
    
@@ -10775,7 +10775,7 @@ extern __declspec(__nothrow) size_t strspn(const char *  , const char *  ) __att
 
  
 
-#line 261 "D:\\Installed Programs\\Keil\\ARM\\RV31\\Inc\\string.h"
+#line 261 "E:\\ProgramFiles\\Keil\\ARM\\RV31\\Inc\\string.h"
 extern __declspec(__nothrow) char *strstr(const char *  , const char *  ) __attribute__((__nonnull__(1,2)));
 
    
@@ -10961,12 +10961,12 @@ extern __declspec(__nothrow) void _membitmovewb(void *  , const void *  , int  ,
 
 
 
-#line 493 "D:\\Installed Programs\\Keil\\ARM\\RV31\\Inc\\string.h"
+#line 493 "E:\\ProgramFiles\\Keil\\ARM\\RV31\\Inc\\string.h"
 
 
 
  
-#line 3 "..\\Libraries\\sunid_lib\\khoi\\src\\keyman.c"
+#line 3 "..\\Libraries\\sunid_lib\\src\\keyman.c"
 
 
 unsigned char key[]   = {0x00, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07,

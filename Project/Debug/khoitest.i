@@ -1,6 +1,6 @@
 #line 1 "SourceCode\\khoitest.c"
 #line 1 "SourceCode\\khoitest.h"
-#line 1 "..\\Utilities\\stm32sunid.h"
+#line 1 "..\\Utilities\\stm32sunidMainSmall.h"
 
 
 
@@ -293,7 +293,7 @@ typedef enum IRQn
 
 
 
-#line 1 "D:\\Installed Programs\\Keil\\ARM\\RV31\\Inc\\stdint.h"
+#line 1 "E:\\ProgramFiles\\Keil\\ARM\\RV31\\Inc\\stdint.h"
  
  
 
@@ -311,7 +311,7 @@ typedef enum IRQn
 
 
 
-#line 25 "D:\\Installed Programs\\Keil\\ARM\\RV31\\Inc\\stdint.h"
+#line 25 "E:\\ProgramFiles\\Keil\\ARM\\RV31\\Inc\\stdint.h"
 
 
 
@@ -476,7 +476,7 @@ typedef unsigned       __int64 uintmax_t;
 
 
 
-#line 196 "D:\\Installed Programs\\Keil\\ARM\\RV31\\Inc\\stdint.h"
+#line 196 "E:\\ProgramFiles\\Keil\\ARM\\RV31\\Inc\\stdint.h"
 
      
 
@@ -509,7 +509,7 @@ typedef unsigned       __int64 uintmax_t;
 
 
 
-#line 260 "D:\\Installed Programs\\Keil\\ARM\\RV31\\Inc\\stdint.h"
+#line 260 "E:\\ProgramFiles\\Keil\\ARM\\RV31\\Inc\\stdint.h"
 
 
 
@@ -7863,7 +7863,7 @@ void SysTick_CLKSourceConfig(uint32_t SysTick_CLKSource);
  
 
  
-#line 20 "..\\Utilities\\stm32sunid.h"
+#line 20 "..\\Utilities\\stm32sunidMainSmall.h"
 #line 1 "..\\Libraries\\STM32F10x_StdPeriph_Driver\\inc\\stm32f10x_adc.h"
 
 
@@ -8227,7 +8227,7 @@ void ADC_ClearITPendingBit(ADC_TypeDef* ADCx, uint16_t ADC_IT);
  
 
  
-#line 21 "..\\Utilities\\stm32sunid.h"
+#line 21 "..\\Utilities\\stm32sunidMainSmall.h"
 #line 1 "..\\Libraries\\STM32F10x_StdPeriph_Driver\\inc\\stm32f10x_dma.h"
 
 
@@ -8500,8 +8500,8 @@ void DMA_ClearITPendingBit(uint32_t DMA_IT);
  
 
  
-#line 22 "..\\Utilities\\stm32sunid.h"
-#line 23 "..\\Utilities\\stm32sunid.h"
+#line 22 "..\\Utilities\\stm32sunidMainSmall.h"
+#line 23 "..\\Utilities\\stm32sunidMainSmall.h"
 #line 1 "..\\Libraries\\STM32F10x_StdPeriph_Driver\\inc\\stm32f10x_tim.h"
 
 
@@ -9305,7 +9305,7 @@ void TIM_ClearITPendingBit(TIM_TypeDef* TIMx, uint16_t TIM_IT);
  
 
  
-#line 24 "..\\Utilities\\stm32sunid.h"
+#line 24 "..\\Utilities\\stm32sunidMainSmall.h"
 #line 1 "..\\Libraries\\STM32F10x_StdPeriph_Driver\\inc\\stm32f10x_spi.h"
 
 
@@ -9710,7 +9710,7 @@ void SPI_I2S_ClearITPendingBit(SPI_TypeDef* SPIx, uint8_t SPI_I2S_IT);
  
 
  
-#line 25 "..\\Utilities\\stm32sunid.h"
+#line 25 "..\\Utilities\\stm32sunidMainSmall.h"
 #line 1 "..\\Libraries\\STM32F10x_StdPeriph_Driver\\inc\\stm32f10x_i2c.h"
 
 
@@ -10293,7 +10293,7 @@ void I2C_ClearITPendingBit(I2C_TypeDef* I2Cx, uint32_t I2C_IT);
   
 
  
-#line 26 "..\\Utilities\\stm32sunid.h"
+#line 26 "..\\Utilities\\stm32sunidMainSmall.h"
 
 
 
@@ -10302,12 +10302,7 @@ typedef enum
 {
   LED1 = 0,
   LED2 = 1,
-  LED3 = 2,
-  LED4 = 3,
-  LEDRED = 4,
-  LEDBGND1 = 5,
-  LEDBGND2 = 6,
-  ALL_LED = 7
+  ALL_LED = 2
 } Led_TypeDef;
 
 typedef enum 
@@ -10381,24 +10376,6 @@ typedef enum
 
 
 
-
-
-
-
-
-
-
-
- 
-
-
-
-										 
-
-
-
-
-
 												  
 
 
@@ -10451,7 +10428,7 @@ typedef enum
 
 
  
-#line 190 "..\\Utilities\\stm32sunid.h"
+#line 167 "..\\Utilities\\stm32sunidMainSmall.h"
 
 
 
@@ -10471,11 +10448,11 @@ typedef enum
 
 
    
-#line 223 "..\\Utilities\\stm32sunid.h"
+#line 200 "..\\Utilities\\stm32sunidMainSmall.h"
 
 
  
-#line 233 "..\\Utilities\\stm32sunid.h"
+#line 210 "..\\Utilities\\stm32sunidMainSmall.h"
 
  
 
@@ -10530,12 +10507,12 @@ uint32_t arraycmp(const uint8_t * src, const uint8_t * des, uint32_t startIndex,
   
  
 #line 2 "SourceCode\\khoitest.h"
-#line 1 "..\\Libraries\\sunid_lib\\thanh\\inc\\VTimer.h"
+#line 1 "..\\Libraries\\sunid_lib\\inc\\VTimer.h"
 
 
 
 
-#line 6 "..\\Libraries\\sunid_lib\\thanh\\inc\\VTimer.h"
+#line 6 "..\\Libraries\\sunid_lib\\inc\\VTimer.h"
  
 
 
@@ -10566,7 +10543,7 @@ uint32_t arraycmp(const uint8_t * src, const uint8_t * des, uint32_t startIndex,
 
 
 #line 3 "SourceCode\\khoitest.h"
-#line 1 "D:\\Installed Programs\\Keil\\ARM\\RV31\\Inc\\string.h"
+#line 1 "E:\\ProgramFiles\\Keil\\ARM\\RV31\\Inc\\string.h"
  
  
  
@@ -10596,7 +10573,7 @@ uint32_t arraycmp(const uint8_t * src, const uint8_t * des, uint32_t startIndex,
 
 
 
-#line 37 "D:\\Installed Programs\\Keil\\ARM\\RV31\\Inc\\string.h"
+#line 37 "E:\\ProgramFiles\\Keil\\ARM\\RV31\\Inc\\string.h"
 
 
   
@@ -10738,7 +10715,7 @@ extern __declspec(__nothrow) size_t strxfrm(char * __restrict  , const char * __
  
 
 
-#line 184 "D:\\Installed Programs\\Keil\\ARM\\RV31\\Inc\\string.h"
+#line 184 "E:\\ProgramFiles\\Keil\\ARM\\RV31\\Inc\\string.h"
 extern __declspec(__nothrow) void *memchr(const void *  , int  , size_t  ) __attribute__((__nonnull__(1)));
 
    
@@ -10749,7 +10726,7 @@ extern __declspec(__nothrow) void *memchr(const void *  , int  , size_t  ) __att
 
  
 
-#line 200 "D:\\Installed Programs\\Keil\\ARM\\RV31\\Inc\\string.h"
+#line 200 "E:\\ProgramFiles\\Keil\\ARM\\RV31\\Inc\\string.h"
 extern __declspec(__nothrow) char *strchr(const char *  , int  ) __attribute__((__nonnull__(1)));
 
    
@@ -10767,7 +10744,7 @@ extern __declspec(__nothrow) size_t strcspn(const char *  , const char *  ) __at
 
  
 
-#line 223 "D:\\Installed Programs\\Keil\\ARM\\RV31\\Inc\\string.h"
+#line 223 "E:\\ProgramFiles\\Keil\\ARM\\RV31\\Inc\\string.h"
 extern __declspec(__nothrow) char *strpbrk(const char *  , const char *  ) __attribute__((__nonnull__(1,2)));
 
    
@@ -10777,7 +10754,7 @@ extern __declspec(__nothrow) char *strpbrk(const char *  , const char *  ) __att
 
  
 
-#line 238 "D:\\Installed Programs\\Keil\\ARM\\RV31\\Inc\\string.h"
+#line 238 "E:\\ProgramFiles\\Keil\\ARM\\RV31\\Inc\\string.h"
 extern __declspec(__nothrow) char *strrchr(const char *  , int  ) __attribute__((__nonnull__(1)));
 
    
@@ -10795,7 +10772,7 @@ extern __declspec(__nothrow) size_t strspn(const char *  , const char *  ) __att
 
  
 
-#line 261 "D:\\Installed Programs\\Keil\\ARM\\RV31\\Inc\\string.h"
+#line 261 "E:\\ProgramFiles\\Keil\\ARM\\RV31\\Inc\\string.h"
 extern __declspec(__nothrow) char *strstr(const char *  , const char *  ) __attribute__((__nonnull__(1,2)));
 
    
@@ -10981,41 +10958,41 @@ extern __declspec(__nothrow) void _membitmovewb(void *  , const void *  , int  ,
 
 
 
-#line 493 "D:\\Installed Programs\\Keil\\ARM\\RV31\\Inc\\string.h"
+#line 493 "E:\\ProgramFiles\\Keil\\ARM\\RV31\\Inc\\string.h"
 
 
 
  
 #line 4 "SourceCode\\khoitest.h"
-#line 1 "..\\Libraries\\sunid_lib\\khoi\\inc\\i2c.h"
+#line 1 "..\\Libraries\\sunid_lib\\inc\\i2c.h"
 
 
 
-#line 5 "..\\Libraries\\sunid_lib\\khoi\\inc\\i2c.h"
+#line 5 "..\\Libraries\\sunid_lib\\inc\\i2c.h"
 
 
-#line 15 "..\\Libraries\\sunid_lib\\khoi\\inc\\i2c.h"
+#line 15 "..\\Libraries\\sunid_lib\\inc\\i2c.h"
 
 
 
 void I2CInit(void);
 
 #line 5 "SourceCode\\khoitest.h"
-#line 1 "..\\Libraries\\sunid_lib\\khoi\\inc\\touchpad.h"
+#line 1 "..\\Libraries\\sunid_lib\\inc\\touchpad.h"
 
 
 
-#line 5 "..\\Libraries\\sunid_lib\\khoi\\inc\\touchpad.h"
+#line 5 "..\\Libraries\\sunid_lib\\inc\\touchpad.h"
 
 
-#line 53 "..\\Libraries\\sunid_lib\\khoi\\inc\\touchpad.h"
-
-
-
+#line 53 "..\\Libraries\\sunid_lib\\inc\\touchpad.h"
 
 
 
-#line 72 "..\\Libraries\\sunid_lib\\khoi\\inc\\touchpad.h"
+
+
+
+#line 72 "..\\Libraries\\sunid_lib\\inc\\touchpad.h"
 
 
 
@@ -11033,13 +11010,15 @@ bool IsKeypadPressed(void);
 
 
 #line 6 "SourceCode\\khoitest.h"
-#line 1 "..\\Libraries\\sunid_lib\\khoi\\inc\\uart.h"
+#line 1 "..\\Libraries\\sunid_lib\\inc\\uart.h"
 
 
 
-#line 5 "..\\Libraries\\sunid_lib\\khoi\\inc\\uart.h"
+#line 5 "..\\Libraries\\sunid_lib\\inc\\uart.h"
 
-#line 14 "..\\Libraries\\sunid_lib\\khoi\\inc\\uart.h"
+#line 14 "..\\Libraries\\sunid_lib\\inc\\uart.h"
+
+#line 23 "..\\Libraries\\sunid_lib\\inc\\uart.h"
 
 
 
@@ -11052,13 +11031,21 @@ bool IsComingData(int* retlen);
 void EmptyMessBuff(void);
 void UART_ISR(void);
 
-
+ErrorCode USARTCOMInit(void);
+unsigned char USART_putchar(unsigned char c);
+unsigned char USART_getchar(void);
+int USART_printf(const char *format, ...);
+unsigned char USART_getche(void);
+unsigned int USART_intScanf(int num, int min,int max);
+unsigned char USART_IsRxEmpty(void);
+ErrorCode USARTGetComData(uint8_t* buf, int len, int timeout);
+void USART1_ISR(void);
 #line 7 "SourceCode\\khoitest.h"
-#line 1 "..\\Libraries\\sunid_lib\\khoi\\inc\\aes.h"
+#line 1 "..\\Libraries\\sunid_lib\\inc\\aes.h"
 
 
 
-#line 5 "..\\Libraries\\sunid_lib\\khoi\\inc\\aes.h"
+#line 5 "..\\Libraries\\sunid_lib\\inc\\aes.h"
 
 
 ErrorCode InitAes128(void);
@@ -11071,7 +11058,7 @@ bool IsComingMessage(void);
 
 #line 8 "SourceCode\\khoitest.h"
 
-void testAES(void);
+void test_USARTCOM(void);
 void testLED(void);
 void testSwitch(void);
 void testTouch(void);
@@ -11088,61 +11075,21 @@ uint8_t buf[] = {0x11, 0x22, 0x33, 0x44, 0x55, 0x66, 0x77, 0x88
 				,0x01, 0x02, 0x03, 0x04, 0x05};
 uint8_t recv[64];
 
-
+void test_USARTCOM(void)
+{
+	USARTCOMInit();
+	while(1){
+	
+		USART_printf("Hello from main control simple\r\n");
+		delay_ms(1000);
+	}
+}
 void newline(){
 	USART_SendData(((USART_TypeDef *) (((uint32_t)0x40000000) + 0x4400)), 0x0a);
 	while(USART_GetFlagStatus(((USART_TypeDef *) (((uint32_t)0x40000000) + 0x4400)), ((uint16_t)0x0080)) == RESET) ;	
 	USART_SendData(((USART_TypeDef *) (((uint32_t)0x40000000) + 0x4400)), 0x0d);
 	while(USART_GetFlagStatus(((USART_TypeDef *) (((uint32_t)0x40000000) + 0x4400)), ((uint16_t)0x0080)) == RESET) ;
 }
-
-
-void testAES(){
-		  UARTInit();
-		  
-		  
-		  
-		  SendMessage(buf, 9, 100);
-		  newline();
-		  
-		  SendMessage(buf, 16, 100);
-		  newline();
-		  
-		  SendMessage(buf, sizeof(buf), 100);
-		  newline();
-		  while (1)
-		  { 			  
-	  
-
-
-
-
-
-
-
-
-
-
-
- 
-			  
-			  if(IsComingMessage()) {
-				  err = GetMessage(recv, &i, 100);
-				  x = i%256;
-				  USART_SendData(((USART_TypeDef *) (((uint32_t)0x40000000) + 0x4400)), x);
-				  while(USART_GetFlagStatus(((USART_TypeDef *) (((uint32_t)0x40000000) + 0x4400)), ((uint16_t)0x0080)) == RESET) ;
-				  x = err;
-				  USART_SendData(((USART_TypeDef *) (((uint32_t)0x40000000) + 0x4400)), x);
-				  while(USART_GetFlagStatus(((USART_TypeDef *) (((uint32_t)0x40000000) + 0x4400)), ((uint16_t)0x0080)) == RESET) ;
-				  for(j = 0; j<i; j++) {
-					  USART_SendData(((USART_TypeDef *) (((uint32_t)0x40000000) + 0x4400)), recv[j]);
-					  while(USART_GetFlagStatus(((USART_TypeDef *) (((uint32_t)0x40000000) + 0x4400)), ((uint16_t)0x0080)) == RESET) ;
-				  }
-			  }
-		 }
-}
-
-
 
 void testLED(){	
 	LEDInit(ALL_LED);
@@ -11165,10 +11112,7 @@ void testSwitch(){
 		else LEDOff(LED1);
 		if (SWGetState(SWITCH2)) LEDOn(LED2);
 		else LEDOff(LED2);
-		if (SWGetState(SWITCH3)) LEDOn(LED3);
-		else LEDOff(LED3);
-		if (SWGetState(SWITCH4)) LEDOn(LED4);
-		else LEDOff(LED4);
+		
 
 		if (!PBGetState(BUTTON_USER)) BuzzerOn(50);
 	}
@@ -11180,8 +11124,7 @@ void testTouch(){
 	BuzzerInit();
 	I2CInit();
 	TouchPadInit();
-	LEDOn(LEDBGND1);
-	LEDOn(LEDBGND2);
+	
 	while(1){
 		err = GetTouchKey(&x, 10000);
 		if (err == ER_TMO){
@@ -11200,7 +11143,7 @@ void testTouch(){
 				break;
 			case 7:
 				LEDOff(ALL_LED);
-				LEDOn(LEDRED);
+				LEDOn(LED1);
 				break;
 			case 8:
 				LEDOff(ALL_LED);
@@ -11208,11 +11151,11 @@ void testTouch(){
 				break;
 			case 2:
 				LEDOff(ALL_LED);
-				LEDOn(LED3);
+				LEDOn(LED2);
 				break;
 			case 4:
 				LEDOff(ALL_LED);
-				LEDOn(LED4);
+				LEDOn(LED2);
 				break;
 			default:
 				break;

@@ -224,6 +224,10 @@ void UART_CAN_IRQHandler(void)
 {
 	UART_ISR();
 }
+void UART_COM_IRQHandler(void)
+{
+	USART1_ISR();
+}
 /**
   * @}
   */ 

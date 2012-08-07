@@ -20,13 +20,9 @@
 
 
 /* Includes ------------------------------------------------------------------*/
-#include "stm32sunid.h"
+#include "stm32sunidMainSmall.h"
 #include "VTimer.h"
-#include "pn532.h"
-#include "pn532_drvr.h"
 #include "khoitest.h"
-#include "thanhtest.h"
-#include "demo.h"
 /** @addtogroup Examples
   * @{
   */
@@ -93,12 +89,7 @@ int main(void)
 	/* NVIC configuration ------------------------------------------------------*/
 	NVIC_Configuration();
 
-	//testAES();
-	//testMifareClassic();
-	//testMifareDesfire();
-	DemoTest();
-	//DuyTest();
-
+	test_USARTCOM();
 	while(1);
 	
 }
